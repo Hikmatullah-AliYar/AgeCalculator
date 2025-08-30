@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(68, 67, 66, 0.548);
+}
+
+.container{
+    color: rgb(57, 57, 57);
+    width:480px;
+    height:280px;
+    background-color: rgb(213, 213, 213);
+    padding:20px 50px;
+    margin: 8.9rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items:center;
+    border-radius:10px;
+}
+.container h2 ,div{
+    margin-bottom:30px;
+}
+.date-birth{
+    padding:5px;
+      outline: none;
+      margin: 5px;
+     border-radius: 5px;
+}
+
+.date-birth:focus{
+    border:none;
+    outline: 4px solid rgba(200, 121, 24, 0.705);
+  
+  box-shadow: 0 0 5px rgba(161, 97, 20, 0.655);
+}
+
+.btn-cal{
+    padding: 5px 10px;
+    background-color: rgb(161, 98, 20);
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    color: aliceblue;
+    font-weight: 600;
+    margin:0 auto;
+}
+
+.result{
+    display: none;
+    background-color:rgb(161, 98, 20);
+    box-shadow: 0 0 5px rgba(161, 97, 20, 0.655);
+    padding:10px;
+    border: none;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius:15px;
+}
